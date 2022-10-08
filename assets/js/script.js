@@ -14,7 +14,7 @@ $( document ).ready(function() {
     });
 
     $('.btn-restart').click(function(){
-        window.location.replace('file:///C:/Users/%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D0%B8%D0%B9/Desktop/Test%20Gsap/index.html');
+        window.location.replace('/');
     });
 
     $('.btn-more').click(function(){
