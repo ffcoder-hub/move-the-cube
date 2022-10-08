@@ -1,0 +1,128 @@
+body {
+    width: 98vw;
+    height: 96vh;
+    background: #FE7B58;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 600;
+    user-select: none;
+}
+
+.speed {
+    width: 200px;
+    font-size: 34px;
+}
+
+.logo {
+    width: 200px;
+    text-align: center;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.logo img {
+    width: 130px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 10px;
+    transition: transform .3s;
+}
+
+.logo img:hover {
+    transform: translateY(-3px);
+}
+
+.vascode {
+    transition: transform .3s;
+}
+
+.vascode:hover {
+    transform: translateY(-3px);
+}
+
+.vascode a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.title {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.box {
+    z-index: 3;
+    height: 100px;
+    width: 100px;
+    background: white;
+    border-radius: 15px;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.about {
+    position: absolute;
+    top: 80px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 34px;
+    font-family: Montserrat;
+    font-weight: 600;
+    user-select: none;
+    text-align: center;
+}
+
+.descr {
+    font-size: 24px;
+}
+
+.interface {
+    position: absolute;
+    bottom: 10px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 34px;
+    font-family: Montserrat;
+    font-weight: 600;
+    user-select: none;
+}
+
+.result {
+    text-align: center;
+}
+
+.buttons {
+    margin: 20px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.buttons div {
+    background: white;
+    color: #FE7B58;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    transition: transform .3s;
+}
+
+
+.buttons div:hover {
+    transform: translateY(-3px);
+}
