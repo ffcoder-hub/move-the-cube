@@ -14,7 +14,7 @@ $( document ).ready(function() {
     });
 
     $('.btn-restart').click(function(){
-        window.location.replace('/');
+        window.location.replace('https://vascodeweb.github.io/');
     });
 
     $('.btn-more').click(function(){
