@@ -14,7 +14,7 @@ $( document ).ready(function() {
     });
 
     $('.btn-restart').click(function(){
-        window.location.replace('https://foxfixcode.github.io/move-the-cube/');
+        window.location.replace('https://ffcoder-hub.github.io/move-the-cube/');
     });
 
     $('.btn-more').click(function(){
